@@ -76,3 +76,60 @@ body{
         }
     }
 }
+
+
+@media (max-width:768px){
+    .overlay{
+      
+        .middle{
+           
+            position:relative;
+            transform: none;
+            top:0px;
+            .content{
+                margin:1rem 1rem ;
+               
+                border-radius: 5px;
+                padding: 1.5rem;
+                .img-logo{
+                    display: flex;
+                    justify-content: center;
+                    span{
+                        border-radius: 50%;
+                        overflow: hidden;
+                        padding:10px;
+                        background:#F5F5EF;
+                        img{
+                            width: 100px;
+                        }
+                    }
+                }
+                .text{
+                    color:#434586;
+                    text-align:center;
+                    font-weight: 800;
+                    font-size:2.5rem;
+                }
+                .desc{
+                    color:#434586;
+                    text-align: justify;
+                }
+                
+            }
+            .logos{
+                display: flex;
+                justify-content: center;
+                .logo{
+                    font-size:2rem;
+                    margin:5px;
+                    color:white;
+                    a{
+                        img{
+                            width:40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -88,4 +88,61 @@ body {
 .overlay .middle .logos .logo a img {
   width: 40px;
 }
+
+@media (max-width: 768px) {
+  .overlay .middle {
+    position: relative;
+    -webkit-transform: none;
+            transform: none;
+    top: 0px;
+  }
+  .overlay .middle .content {
+    margin: 1rem 1rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+  }
+  .overlay .middle .content .img-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay .middle .content .img-logo span {
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    background: #F5F5EF;
+  }
+  .overlay .middle .content .img-logo span img {
+    width: 100px;
+  }
+  .overlay .middle .content .text {
+    color: #434586;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+  .overlay .middle .content .desc {
+    color: #434586;
+    text-align: justify;
+  }
+  .overlay .middle .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay .middle .logos .logo {
+    font-size: 2rem;
+    margin: 5px;
+    color: white;
+  }
+  .overlay .middle .logos .logo a img {
+    width: 40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
