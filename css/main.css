@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #0cdee3;
+  background: linear-gradient(20deg, #0cdee3 0%, #b427de 100%);
+  min-height: 100vh;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.overlay .middle {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.overlay .middle .header h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.overlay .middle .content {
+  margin: 1rem 3rem;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.overlay .middle .content .img-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overlay .middle .content .img-logo span {
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 10px;
+  background: #F5F5EF;
+}
+
+.overlay .middle .content .img-logo span img {
+  width: 100px;
+}
+
+.overlay .middle .content .text {
+  color: #434586;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.overlay .middle .content .desc {
+  color: #434586;
+  text-align: justify;
+}
+
+.overlay .middle .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overlay .middle .logos .logo {
+  font-size: 2rem;
+  margin: 5px;
+  color: white;
+}
+
+.overlay .middle .logos .logo a img {
+  width: 40px;
+}
+/*# sourceMappingURL=main.css.map */

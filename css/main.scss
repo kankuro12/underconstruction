@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: rgb(12,222,227);
+    background: linear-gradient(20deg, rgba(12,222,227,1) 0%, rgba(180,39,222,1) 100%);
+    min-height:100vh;
+}
+
+.overlay{
+    position: fixed;
+    z-index:1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.4);
+    .middle{
+        position: absolute;
+        top:50%;
+        width:100%;
+        transform: translateY(-50%);
+
+      
+        .header{
+            h1{
+                color:white;
+                font-size:3rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+        .content{
+            margin:1rem 3rem ;
+            background:white;
+            border-radius: 10px;
+            padding: 2rem;
+            .img-logo{
+                display: flex;
+                justify-content: center;
+                span{
+                    border-radius: 50%;
+                    overflow: hidden;
+                    padding:10px;
+                    background:#F5F5EF;
+                    img{
+                        width: 100px;
+                    }
+                }
+            }
+            .text{
+                color:#434586;
+                text-align:center;
+                font-weight: 800;
+                font-size:2.5rem;
+            }
+            .desc{
+                color:#434586;
+                text-align: justify;
+            }
+            
+        }
+        .logos{
+            display: flex;
+            justify-content: center;
+            .logo{
+                font-size:2rem;
+                margin:5px;
+                color:white;
+                a{
+                    img{
+                        width:40px;
+                    }
+                }
+            }
+        }
+    }
+}
